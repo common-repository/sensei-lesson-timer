@@ -1,0 +1,43 @@
+#sensei_lesson_timer, #slt_timer {
+	background: rgb(155, 158, 27);
+	border: 2px solid grey;
+	font-size: 18px;
+	color: white;
+	width: auto;
+	height: auto;
+	float: left;
+	font-family: arial;
+	margin-left: 10px;
+}
+
+#sensei_lesson_timer.sensei_lesson_timer-outside-right {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#sensei_lesson_timer.sensei_lesson_timer-outside-left {
+	margin-right: 10px;
+}
+
+#sensei_lesson_timer_minutes, #slt_minutes,
+#sensei_lesson_timer_seconds, #slt_seconds {
+	background: black;
+	border: 1px solid grey;
+	color: white;
+	font-weight: bold;
+	margin: 2px;
+	padding: 2px;
+	float: left;
+}
+
+#sensei_lesson_timer_separator, #slt_separator {
+	color: blue;
+	font-weight: bold;
+	float: left;
+	padding: 4px 0px;
+}
+
+
+span#sensei_lesson_timer_spacer {
+	float: left;
+}
